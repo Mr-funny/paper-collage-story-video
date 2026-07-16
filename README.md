@@ -65,29 +65,40 @@ flowchart LR
 
 ## 📦 安装
 
-### Codex
+**👉 [详细一键安装指南点这里](INSTALL.md)**
+
+最快 30 秒：
+
+```bash
+# macOS/Linux 自动安装
+curl -fsSL https://raw.githubusercontent.com/Mr-funny/paper-collage-story-video/main/install.sh | bash
+```
+
+或手动执行（所有系统）：
 
 ```bash
 git clone https://github.com/Mr-funny/paper-collage-story-video.git
-cp -R paper-collage-story-video/skills/paper-collage-story-video ~/.codex/skills/
+cp -R paper-collage-story-video/skills/paper-collage-story-video ~/.codex/skills/    # Codex
+# 或
+cp -R paper-collage-story-video/skills/paper-collage-story-video ~/.claude/skills/   # Claude Code
 ```
 
-### Claude Code
+### 系统依赖
 
-```bash
-git clone https://github.com/Mr-funny/paper-collage-story-video.git
-cp -R paper-collage-story-video/skills/paper-collage-story-video ~/.claude/skills/
+| 工具 | 最低版本 | 说明 |
+| --- | --- | --- |
+| Node.js | 18.0+ | Remotion 视频引擎 |
+| Python | 3.9+ | 4 个辅助脚本（无外部依赖） |
+| FFmpeg | 4.0+ | 贴纸抠图与拆分 |
+| pnpm | 8.0+ | 包管理器（可选，npm 也行） |
+
+安装完后，在 Codex 或 Claude Code 新任务中说：
+
+```
+使用 $paper-collage-story-video，把"项羽和虞姬"制作成一条带故事字幕的纸片剪贴动画。
 ```
 
-> Skill 中的图片生成步骤默认使用 Codex 内置 ImageGen；在其他环境下可以换成任意能输出纯色背景贴纸表的文生图工具，后续抠图、编排、渲染流程完全一致。
-
-### 依赖
-
-| 工具 | 用途 |
-| --- | --- |
-| Node.js 18+ / pnpm | 运行 Remotion 模板与渲染 |
-| Python 3.9+ | 运行 4 个辅助脚本（仅标准库） |
-| FFmpeg | 贴纸抠图与拆分 |
+AI 会自动调用 Skill 完成全流程。
 
 ## 🚀 使用
 
