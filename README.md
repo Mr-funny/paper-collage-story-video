@@ -20,6 +20,10 @@
 
 ## 🎬 演示视频
 
+
+https://github.com/user-attachments/assets/1a9ac683-cc74-437b-a253-bf50e2e14f02
+
+
 <!-- 👇 在 GitHub 网页编辑器中把 MP4 拖拽到这一行下方，会自动生成视频链接 -->
 
 *演示视频即将上传。*
@@ -133,6 +137,9 @@ python3 skills/paper-collage-story-video/scripts/recover_imagegen.py \
 ## ⛵ 示例：郑和下西洋 & 唐朝纸片动画
 
 [examples/tang-zhenghe-paper-animation](examples/tang-zhenghe-paper-animation) 是这套工作流的前身实验场——独立贴纸入场、压印式标题等规则都在这里打磨成型。一个项目包含三个合成：12 秒的《郑和下西洋》三幕故事、10 秒的唐朝双镜头动画（ImageGen 版和纯 SVG 版）。
+
+
+
 
 | 龙江造船 | 扬帆远航 | 万国来朝 |
 | :---: | :---: | :---: |
