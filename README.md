@@ -141,6 +141,10 @@ python3 skills/paper-collage-story-video/scripts/recover_imagegen.py \
 
 
 
+https://github.com/user-attachments/assets/9cc082e8-684c-4c5c-86b1-25c855063de4
+
+
+
 | 龙江造船 | 扬帆远航 | 万国来朝 |
 | :---: | :---: | :---: |
 | ![龙江造船](examples/tang-zhenghe-paper-animation/preview/zhenghe-75.jpg) | ![扬帆远航](examples/tang-zhenghe-paper-animation/preview/zhenghe-195.jpg) | ![万国来朝](examples/tang-zhenghe-paper-animation/preview/zhenghe-315.jpg) |
