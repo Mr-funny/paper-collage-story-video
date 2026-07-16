@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e9c98f"/>
+      <stop offset="1" stop-color="#a45d3f"/>
+    </linearGradient>
+    <pattern id="fiber" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0 8h24M7 0v24" stroke="#4b2518" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#paper)"/>
+  <rect width="1920" height="1080" fill="url(#fiber)"/>
+  <path d="M0 760C320 650 520 820 820 710s510-80 1100 20v350H0z" fill="#5e3426" opacity=".35"/>
+</svg>

@@ -1,0 +1,8 @@
+[
+  {"text": "第一句说明故事发生的时间、地点和人物。", "startMs": 250, "endMs": 1900, "timestampMs": null, "confidence": null},
+  {"text": "第二句说明主人公为什么踏上这段旅程。", "startMs": 1900, "endMs": 3900, "timestampMs": null, "confidence": null},
+  {"text": "第三句讲清楚行动如何展开。", "startMs": 4000, "endMs": 6100, "timestampMs": null, "confidence": null},
+  {"text": "第四句补充困难、规模或关键成就。", "startMs": 6100, "endMs": 7900, "timestampMs": null, "confidence": null},
+  {"text": "第五句交代事件带来的直接结果。", "startMs": 8000, "endMs": 10100, "timestampMs": null, "confidence": null},
+  {"text": "最后一句解释这个故事为什么值得记住。", "startMs": 10100, "endMs": 12000, "timestampMs": null, "confidence": null}
+]

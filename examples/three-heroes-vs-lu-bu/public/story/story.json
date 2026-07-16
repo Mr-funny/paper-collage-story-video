@@ -1,0 +1,187 @@
+{
+  "title": "三英战吕布",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 450,
+  "scenes": [
+    {
+      "id": "hulao-might",
+      "startFrame": 0,
+      "durationInFrames": 160,
+      "background": "assets/story/01-hulao-bg.png",
+      "backgroundColor": "#9d4a2d",
+      "title": {
+        "label": "《三 国 演 义》· 虎 牢 关",
+        "text": "吕布扬威",
+        "note": "赤兔如火 · 画戟生风",
+        "align": "left",
+        "entryFrame": 4
+      },
+      "stickers": [
+        {
+          "id": "scene-1-lu-bu",
+          "src": "assets/story/01-lubu-mounted.png",
+          "width": 820,
+          "left": 540,
+          "top": 225,
+          "entryFrame": 18,
+          "fromY": 70,
+          "startScale": 0.86,
+          "float": 3,
+          "zIndex": 9
+        },
+        {
+          "id": "scene-1-banner-left",
+          "src": "assets/story/01-banner-left.png",
+          "width": 430,
+          "left": 50,
+          "top": 380,
+          "entryFrame": 64,
+          "fromX": -90,
+          "entranceGroup": "coalition-banners",
+          "zIndex": 7
+        },
+        {
+          "id": "scene-1-banner-right",
+          "src": "assets/story/01-banner-right.png",
+          "width": 430,
+          "left": 1440,
+          "top": 380,
+          "entryFrame": 64,
+          "fromX": 90,
+          "entranceGroup": "coalition-banners",
+          "zIndex": 7
+        },
+        {
+          "id": "scene-1-drum",
+          "src": "assets/story/01-drum.png",
+          "width": 300,
+          "left": 1460,
+          "top": 650,
+          "entryFrame": 108,
+          "fromY": 55,
+          "startScale": 0.82,
+          "zIndex": 10
+        }
+      ]
+    },
+    {
+      "id": "three-heroes-enter",
+      "startFrame": 150,
+      "durationInFrames": 160,
+      "background": "assets/story/02-duel-bg.png",
+      "backgroundColor": "#67352b",
+      "title": {
+        "label": "张 飞 · 关 羽 · 刘 备",
+        "text": "三英合战",
+        "note": "一人接一人 · 围住吕布",
+        "align": "right",
+        "entryFrame": 4
+      },
+      "stickers": [
+        {
+          "id": "scene-2-lu-bu",
+          "src": "assets/story/02-lubu.png",
+          "width": 530,
+          "left": 700,
+          "top": 250,
+          "entryFrame": 8,
+          "fromY": 45,
+          "startScale": 0.9,
+          "zIndex": 7
+        },
+        {
+          "id": "scene-2-zhang-fei",
+          "src": "assets/story/02-zhangfei.png",
+          "width": 500,
+          "left": 40,
+          "top": 405,
+          "entryFrame": 38,
+          "fromX": -110,
+          "zIndex": 9
+        },
+        {
+          "id": "scene-2-guan-yu",
+          "src": "assets/story/02-guanyu.png",
+          "width": 520,
+          "left": 1370,
+          "top": 390,
+          "entryFrame": 78,
+          "fromX": 110,
+          "zIndex": 9
+        },
+        {
+          "id": "scene-2-liu-bei",
+          "src": "assets/story/02-liubei.png",
+          "width": 430,
+          "left": 470,
+          "top": 540,
+          "entryFrame": 118,
+          "fromY": 90,
+          "startScale": 0.86,
+          "zIndex": 10
+        }
+      ]
+    },
+    {
+      "id": "lu-bu-breaks-out",
+      "startFrame": 300,
+      "durationInFrames": 150,
+      "background": "assets/story/03-retreat-bg.png",
+      "backgroundColor": "#c37643",
+      "title": {
+        "label": "虎 牢 关 外 · 传 奇 一 回",
+        "text": "赤兔突围",
+        "note": "豪杰争锋 · 兄弟并肩",
+        "align": "left",
+        "entryFrame": 4
+      },
+      "stickers": [
+        {
+          "id": "scene-3-lu-bu",
+          "src": "assets/story/03-lubu-retreat.png",
+          "width": 790,
+          "left": 1040,
+          "top": 235,
+          "entryFrame": 18,
+          "fromX": -150,
+          "fromY": 20,
+          "startScale": 0.88,
+          "float": 5,
+          "zIndex": 7
+        },
+        {
+          "id": "scene-3-zhang-fei",
+          "src": "assets/story/03-zhangfei.png",
+          "width": 370,
+          "left": 40,
+          "top": 475,
+          "entryFrame": 66,
+          "fromX": -80,
+          "zIndex": 10
+        },
+        {
+          "id": "scene-3-guan-yu",
+          "src": "assets/story/03-guanyu.png",
+          "width": 390,
+          "left": 350,
+          "top": 455,
+          "entryFrame": 96,
+          "fromY": 65,
+          "zIndex": 9
+        },
+        {
+          "id": "scene-3-liu-bei",
+          "src": "assets/story/03-liubei.png",
+          "width": 370,
+          "left": 690,
+          "top": 480,
+          "entryFrame": 126,
+          "fromX": 60,
+          "zIndex": 8
+        }
+      ]
+    }
+  ]
+}

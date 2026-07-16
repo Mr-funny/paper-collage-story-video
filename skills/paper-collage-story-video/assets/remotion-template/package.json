@@ -1,0 +1,31 @@
+{
+  "name": "paper-collage-story-video",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/captions": "4.0.489",
+    "@remotion/cli": "4.0.489",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.489"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.489",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.19.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "lint": "eslint src && tsc --noEmit",
+    "stills": "remotion still StoryVideo out/scene-1.png --frame=75 --overwrite && remotion still StoryVideo out/scene-2.png --frame=195 --overwrite && remotion still StoryVideo out/scene-3.png --frame=315 --overwrite",
+    "render:raw": "remotion render StoryVideo out/story-render.mp4 --codec=h264 --crf=18 --concurrency=1 --overwrite",
+    "render": "remotion render StoryVideo out/story-render.mp4 --codec=h264 --crf=18 --concurrency=1 --overwrite && remotion ffmpeg -y -i out/story-render.mp4 -map 0:v:0 -c:v copy -an out/story-silent.mp4"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

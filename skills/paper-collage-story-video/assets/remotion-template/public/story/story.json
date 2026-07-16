@@ -1,0 +1,42 @@
+{
+  "title": "示例纸片故事",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 360,
+  "scenes": [
+    {
+      "id": "scene-1",
+      "startFrame": 0,
+      "durationInFrames": 130,
+      "background": "assets/story/placeholder-background.svg",
+      "backgroundColor": "#ad6e42",
+      "title": {"label": "第 一 幕", "text": "故事开始", "note": "时间 · 地点 · 主角", "align": "left", "entryFrame": 4},
+      "stickers": [
+        {"id": "scene-1-hero", "src": "assets/story/placeholder-sticker.svg", "width": 330, "left": 795, "top": 350, "entryFrame": 18, "zIndex": 9, "fromY": 60}
+      ]
+    },
+    {
+      "id": "scene-2",
+      "startFrame": 120,
+      "durationInFrames": 130,
+      "background": "assets/story/placeholder-background.svg",
+      "backgroundColor": "#496f73",
+      "title": {"label": "第 二 幕", "text": "行动展开", "note": "过程 · 困难 · 成就", "align": "left", "entryFrame": 4},
+      "stickers": [
+        {"id": "scene-2-object", "src": "assets/story/placeholder-sticker.svg", "width": 360, "left": 780, "top": 350, "entryFrame": 18, "zIndex": 9, "fromY": 60}
+      ]
+    },
+    {
+      "id": "scene-3",
+      "startFrame": 240,
+      "durationInFrames": 120,
+      "background": "assets/story/placeholder-background.svg",
+      "backgroundColor": "#d49a59",
+      "title": {"label": "第 三 幕", "text": "留下意义", "note": "结果 · 影响 · 回望", "align": "right", "entryFrame": 4},
+      "stickers": [
+        {"id": "scene-3-result", "src": "assets/story/placeholder-sticker.svg", "width": 330, "left": 795, "top": 350, "entryFrame": 18, "zIndex": 9, "fromY": 60}
+      ]
+    }
+  ]
+}

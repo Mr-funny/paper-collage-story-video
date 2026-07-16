@@ -1,0 +1,4 @@
+interface:
+  display_name: "纸片故事视频生成器"
+  short_description: "将任意主题制作成带叙事字幕与独立贴纸入场的纸片剪贴动画视频"
+  default_prompt: "使用 $paper-collage-story-video 把“郑和下西洋”制作成一条带故事字幕的无音频纸片剪贴动画。"

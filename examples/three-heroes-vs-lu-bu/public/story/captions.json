@@ -1,0 +1,44 @@
+[
+  {
+    "text": "《三国演义》中，虎牢关前，吕布一骑压住诸侯联军。",
+    "startMs": 300,
+    "endMs": 2200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "他骑赤兔、执方天画戟，连败诸将，阵前无人敢近。",
+    "startMs": 2200,
+    "endMs": 4900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "张飞挺丈八蛇矛迎战，关羽随即挥刀夹攻。",
+    "startMs": 5000,
+    "endMs": 7500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "刘备再持双股剑加入，三人从三面围住吕布。",
+    "startMs": 7500,
+    "endMs": 9900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "吕布渐落下风，虚晃一戟，拍赤兔马突围而去。",
+    "startMs": 10000,
+    "endMs": 12400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "这场虚构的经典交锋，写尽豪杰争锋与兄弟并肩。",
+    "startMs": 12400,
+    "endMs": 15000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]
