@@ -1,0 +1,44 @@
+[
+  {
+    "text": "公元1405年，郑和奉明成祖之命，从南京率领宝船启航。",
+    "startMs": 250,
+    "endMs": 1900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "船上载着丝绸、瓷器，也载着通往远方的愿望。",
+    "startMs": 1900,
+    "endMs": 3900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "船队穿越季风与巨浪，沿着海上丝路驶向印度洋。",
+    "startMs": 4000,
+    "endMs": 6100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "七次远航，足迹遍及三十多个国家和地区。",
+    "startMs": 6100,
+    "endMs": 7900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "郑和用礼物和诚信与各国相交，带回珍奇，也带回友谊。",
+    "startMs": 8000,
+    "endMs": 10100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "这支船队，让十五世纪的中国与世界彼此看见。",
+    "startMs": 10100,
+    "endMs": 12000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

@@ -130,6 +130,23 @@ python3 skills/paper-collage-story-video/scripts/recover_imagegen.py \
   /path/to/session.jsonl /path/to/raw-assets --last 6
 ```
 
+## ⛵ 示例：郑和下西洋 & 唐朝纸片动画
+
+[examples/tang-zhenghe-paper-animation](examples/tang-zhenghe-paper-animation) 是这套工作流的前身实验场——独立贴纸入场、压印式标题等规则都在这里打磨成型。一个项目包含三个合成：12 秒的《郑和下西洋》三幕故事、10 秒的唐朝双镜头动画（ImageGen 版和纯 SVG 版）。
+
+| 龙江造船 | 扬帆远航 | 万国来朝 |
+| :---: | :---: | :---: |
+| ![龙江造船](examples/tang-zhenghe-paper-animation/preview/zhenghe-75.jpg) | ![扬帆远航](examples/tang-zhenghe-paper-animation/preview/zhenghe-195.jpg) | ![万国来朝](examples/tang-zhenghe-paper-animation/preview/zhenghe-315.jpg) |
+
+| 唐朝 · 盛世长安 | 唐朝 · 万邦来朝 |
+| :---: | :---: |
+| ![盛世长安](examples/tang-zhenghe-paper-animation/preview/preview-image-wide.jpg) | ![万邦来朝](examples/tang-zhenghe-paper-animation/preview/preview-image-close.jpg) |
+
+```bash
+cd examples/tang-zhenghe-paper-animation
+pnpm install && pnpm run render:zhenghe
+```
+
 ## 🗂️ 目录结构
 
 ```text
@@ -146,7 +163,8 @@ skills/paper-collage-story-video/
 ├── agents/openai.yaml             # Codex 界面元信息
 └── assets/remotion-template/      # 数据驱动的 Remotion 项目模板
 
-examples/three-heroes-vs-lu-bu/    # 《三英战吕布》完整可运行示例
+examples/three-heroes-vs-lu-bu/         # 《三英战吕布》数据驱动示例（Skill 标准产物）
+examples/tang-zhenghe-paper-animation/  # 郑和下西洋 + 唐朝动画（工作流前身实验场）
 ```
 
 ## 🎭 示例：三英战吕布

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="paper"><feTurbulence baseFrequency=".5" numOctaves="4" seed="11" type="fractalNoise"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .14 0"/></filter>
+    <radialGradient id="glow"><stop stop-color="#e8b958"/><stop offset=".45" stop-color="#a92b21"/><stop offset="1" stop-color="#5c1718"/></radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+  <rect width="1920" height="1080" filter="url(#paper)"/>
+  <path d="M0 0h1920v150H0z" fill="#3a1717"/>
+  <path d="M0 137h1920l-114 108H117z" fill="#d6a548" stroke="#3a1d18" stroke-width="14"/>
+  <path d="M130 222h1660v690H130z" fill="#8c241f" stroke="#3e1c18" stroke-width="18" opacity=".82"/>
+  <g fill="#4b1e1b" stroke="#e4ba5e" stroke-width="14">
+    <path d="M128 140h154l42 802H72z"/><path d="M1638 140h154l56 802h-252z"/>
+    <path d="M418 180h105l18 680H395z"/><path d="M1397 180h105l23 680h-146z"/>
+  </g>
+  <g fill="none" stroke="#f0ce78" stroke-width="9" opacity=".65">
+    <circle cx="960" cy="385" r="125"/><circle cx="960" cy="385" r="91"/>
+    <path d="M898 402q62-155 124 0q-70-43-124 0zm-315-83q105-75 210 0t210 0t210 0"/>
+    <path d="M290 682q205-121 408 0t408 0t520 0"/>
+  </g>
+  <path d="M0 820Q240 770 450 824T875 813T1295 830T1700 795T1920 824V1080H0Z" fill="#b66b42"/>
+  <path d="M0 898Q260 845 470 901T940 886T1410 905T1920 875" fill="none" stroke="#58271f" stroke-width="8" opacity=".55"/>
+  <path d="M-10 986Q270 920 510 994T1000 964T1500 995T1940 956V1080H-10Z" fill="#e7d1a2" opacity=".66"/>
+  <path d="M55 61l350-38 9 46-342 43zm1461-14l335 30-9 45-342-28z" fill="#ecd5a3" opacity=".35"/>
+</svg>

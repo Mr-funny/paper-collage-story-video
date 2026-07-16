@@ -2,7 +2,7 @@
   "name": "three-heroes-vs-lu-bu",
   "version": "1.0.0",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "@remotion/captions": "4.0.489",
     "@remotion/cli": "4.0.489",

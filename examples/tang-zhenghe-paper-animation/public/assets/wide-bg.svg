@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="paper"><feTurbulence baseFrequency=".55" numOctaves="3" seed="7" type="fractalNoise"/><feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .13 0"/></filter>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#d85a35"/><stop offset=".58" stop-color="#b92d22"/><stop offset="1" stop-color="#8c1d1b"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#f0cf72"/><stop offset="1" stop-color="#a96228"/></linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" filter="url(#paper)" opacity=".8"/>
+  <path d="M0 295Q125 180 250 274T520 240T790 286T1050 224T1310 277T1580 220T1920 278V0H0Z" fill="#ead8af" opacity=".93"/>
+  <path d="M0 318Q150 214 295 309T625 252T930 310T1280 238T1595 298T1920 244" fill="none" stroke="#30231e" stroke-width="13" opacity=".55"/>
+  <path d="M74 285l108-117 88 92 102-147 112 153 114-82 98 92 116-145 119 143 135-109 120 103 148-147 112 140 150-99 122 107" fill="none" stroke="#3b3029" stroke-width="10" opacity=".45"/>
+  <g opacity=".94">
+    <path d="M235 584h1450v245H235z" fill="#e7c77d" stroke="#4d2818" stroke-width="15"/>
+    <path d="M170 585h1580l-128-99H298Z" fill="#341c18"/>
+    <path d="M253 503h1415l-112-90H363Z" fill="#dfb84f" stroke="#44251a" stroke-width="12"/>
+    <path d="M390 412h1140l-93-75H484Z" fill="#4b2119"/>
+    <path d="M494 339h948l-88-73H582Z" fill="url(#gold)" stroke="#462319" stroke-width="12"/>
+    <path d="M594 266h748l-71-62H665Z" fill="#4c221a"/>
+    <path d="M352 585v244M518 585v244M683 585v244M848 585v244M1013 585v244M1178 585v244M1343 585v244M1508 585v244" stroke="#9b2b20" stroke-width="32"/>
+    <path d="M375 604h110m55 0h110m55 0h110m55 0h110m55 0h110m55 0h110m55 0h110" stroke="#f0d893" stroke-width="10"/>
+    <path d="M760 827h400v-214H760z" fill="#7e211b" stroke="#d2a64d" stroke-width="13"/>
+    <path d="M809 827V650h302v177" fill="#2c1c19" stroke="#edcd77" stroke-width="10"/>
+  </g>
+  <path d="M0 821Q220 765 433 817T855 806T1269 825T1689 789T1920 823V1080H0Z" fill="#d3a36a"/>
+  <path d="M0 876Q256 832 456 880T915 866T1325 884T1920 861" fill="none" stroke="#81462f" stroke-width="7" opacity=".55"/>
+  <path d="M0 1015Q250 954 461 1016T912 991T1377 1017T1920 973V1080H0Z" fill="#eee0bd" opacity=".76"/>
+  <path d="M-20 35L510 5l-18 49L-12 74zM1460 12l480 28-12 48-496-35z" fill="#f2deb2" opacity=".6"/>
+</svg>
